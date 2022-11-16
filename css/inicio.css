@@ -1,0 +1,30 @@
+.home {
+  background-image: url("../img-proyecto/heroImageExtraSmall.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 200px;
+  display: grid;
+  grid-template-areas: "imagen texto";
+  grid-template-columns: 37% 1fr;
+}
+
+.contenedor-img {
+  background-color: #c59d62;
+  grid-area: imagen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-texto {
+  grid-area: texto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-img img {
+  width: 5.313rem;
+}
